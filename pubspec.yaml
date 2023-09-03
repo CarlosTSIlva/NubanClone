@@ -1,0 +1,75 @@
+name: nubank_clone
+description: Clone do aplicativo mobile da Nubank utilizando Flutter
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  bootstrap_icons: ^1.10.2
+  flutter_masked_text2: ^0.9.1
+  flutter_native_splash: ^2.2.16
+  material_design_icons_flutter: ^6.0.7096
+  page_transition: ^2.0.9
+  provider: ^6.0.5
+
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.5
+
+dev_dependencies:
+  dart_code_metrics: ^5.3.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^2.0.1
+
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: NuIcons
+      fonts:
+        - asset: assets/fonts/NuIcons.ttf
+
+    - family: Gotham-SSm
+      fonts:
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-XLight.ttf
+          weight: 200
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-XLightItalic.ttf
+          weight: 200
+          style: italic
+
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-LightItalic.ttf
+          weight: 300
+          style: italic
+
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-Book.ttf
+          weight: 400
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-BookItalic.ttf
+          weight: 400
+          style: italic
+
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-MediumItalic.ttf
+          weight: 500
+          style: italic
+
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-BoldItalic.ttf
+          weight: 700
+          style: italic
+
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Gotham-SSm/GothamSSm-BlackItalic.ttf
+          weight: 900
